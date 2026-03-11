@@ -1,7 +1,7 @@
 //const express = require("express");
 import dotenv from "dotenv";
 dotenv.config()
-import app from "./scr/app.js"
+import app from "./src/routes/app.js";
 
 const PORT = process.env.PORT || 5000;
 
